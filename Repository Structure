@@ -1,0 +1,12 @@
+moeky-portfolio/
+├── README.md
+├── index.html (Default GitHub Pages - Vanilla HTML)
+├── docs/
+│   ├── vanilla/          # Pure HTML/CSS/JS
+│   ├── bootstrap/        # Bootstrap 5
+│   ├── react/            # React App
+│   ├── vue/              # Vue 3
+│   └── kotlin/           # Kotlin/Compose Web
+├── src/                  # Source files for frameworks
+├── package.json          # NPM dependencies
+└── deploy.sh            # Auto-deploy script
