@@ -1,0 +1,15 @@
+{
+  "name": "moeky-portfolio-multi-tech",
+  "version": "1.0.0",
+  "description": "Multi-technology portfolio website",
+  "scripts": {
+    "build:react": "cd src/react && npm install && npm run build && cp -r build/* ../docs/react/",
+    "build:vue": "cd src/vue && npm install && npm run build && cp -r dist/* ../docs/vue/",
+    "build:all": "npm run build:react && npm run build:vue",
+    "deploy": "./deploy.sh",
+    "serve": "npx serve ."
+  },
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}
