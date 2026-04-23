@@ -1,0 +1,14 @@
+```bash
+# Clone repo
+git clone https://github.com/Moekyawaung-mk/moeky-portfolio.git
+cd moeky-portfolio
+
+# Run Vanilla version
+open index.html
+
+# Install & run React version
+cd src/react && npm install && npm start
+
+# Deploy to GitHub Pages
+./deploy.sh
+
